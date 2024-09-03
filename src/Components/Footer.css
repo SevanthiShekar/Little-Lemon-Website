@@ -1,0 +1,29 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #495E57;
+    color: #EDEFEE;
+    padding: 20px;
+    font-family: Karla;
+}
+a{
+    text-decoration: none;
+    color: #EDEFEE;
+}
+img{
+    width: 100px;
+    height: 150px;
+    margin-top: 25px;
+}
+p{
+    margin-bottom: -10px;
+}
+
+@font-face {
+    font-family: Markazi;
+    src: url(assets/MarkaziText-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Karla;
+    src: url(assets/Karla-VariableFont_wght.ttf);
+}

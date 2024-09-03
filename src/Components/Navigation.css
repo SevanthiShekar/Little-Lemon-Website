@@ -1,0 +1,18 @@
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li{
+    margin: 10px;
+    font-family: Karla;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Markazi;
+    src: url(assets/MarkaziText-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Karla;
+    src: url(assets/Karla-VariableFont_wght.ttf);
+}

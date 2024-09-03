@@ -1,25 +1,34 @@
 import React from 'react'
 import logo from './assets/bottom_logo.jpg'
+import './Footer.css';
+
 const Footer = () => {
   return (
-    <footer>
+    <footer className="footer">
         <img src={logo} alt="bottom-logo"></img>
-        <h3>Doormat Navigation</h3>
-        <ul>
-            <li><a href="/home">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/menu">Menu</a></li>
-            <li><a href="/reservations">Reservations</a></li>
-            <li><a href="/order-online">Order Online</a></li>
-            <li><a href="/login">Login</a></li>
-        </ul>
+        <div>
+            <h3>Doormat Navigation</h3>
+              <a href="/home">Home</a><br/>
+              <a href="/about">About</a><br/>
+              <a href="/menu">Menu</a><br/>
+              <a href="/reservations">Reservations</a><br/>
+              <a href="/order-online">Order Online</a><br/>
+              <a href="/login">Login</a>
+        </div>
 
-        <h3>Contact</h3>
-        <h5>Address</h5>
-        <h5>Phone Number</h5>
-        <h5>Email</h5>
+        <div>
+           <h3>Contact</h3>
+           <p>21st Jump Street, Downtown Chicago</p>
+           <p>6904-2095-5678</p>
+           <p>littlelemonbusiness@gmail.com</p>
+        </div>
 
-        <h3>Social Media Links</h3>
+        <div>
+          <h3>Social Media Links</h3>
+            <a href="https://www.instagram.com/">Instagram</a><br/>
+            <a href="https://www.facebook.com/">Facebook</a><br/>
+            <a href="https://twitter.com/">X</a><br/>
+        </div>
     </footer>
   )
 }

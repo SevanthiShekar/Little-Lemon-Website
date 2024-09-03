@@ -5,11 +5,18 @@ import Footer from './Components/Footer.js'
 import './App.css';
 
 function App() {
+  const style = {
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    padding: "0px 30px",
+  }
   return (
     <>
-      <Header/>
-
-      <Navigation/>
+      <div style={style}>
+         <Header/>
+         <Navigation/>
+      </div>
 
       <Main/>
 
