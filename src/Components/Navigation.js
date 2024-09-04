@@ -1,17 +1,18 @@
 import React from 'react'
 import "./Navigation.css"
 import font from "./assets/MarkaziText-VariableFont_wght.ttf"
+import {Link} from "react-router-dom";
 
 const Navigation = () => {
   return (
     <nav>
         <ul>
-            <li><a href="/home" style={{color: "#333333", fontFamily: font}}>Home</a></li>
-            <li><a href="/about" style={{color: "#333333"}}>About</a></li>
-            <li><a href="/menu" style={{color: "#333333"}}>Menu</a></li>
-            <li><a href="/reservations" style={{color: "#333333"}}>Reservations</a></li>
-            <li><a href="/order-online" style={{color: "#333333"}}>Order Online</a></li>
-            <li><a href="/login" style={{color: "#333333"}}>Login</a></li>
+            <li><Link to="/" style={{color: "#333333", fontFamily: font}}>Home</Link></li>
+            <li><Link to="/about" style={{color: "#333333"}}>About</Link></li>
+            <li><Link to="/menu" style={{color: "#333333"}}>Menu</Link></li>
+            <li><Link to="/reservations" style={{color: "#333333"}}>Reservations</Link></li>
+            <li><Link to="/order-online" style={{color: "#333333"}}>Order Online</Link></li>
+            <li><Link to="/login" style={{color: "#333333"}}>Login</Link></li>
         </ul>
     </nav>
   )
