@@ -1,0 +1,59 @@
+h1{
+   font-family: Markazi;
+   margin-left: 20px;
+   font-size: 3rem;
+}
+form{
+    width: 400px;
+    height: 300px;
+    margin-left: 40px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+label{
+    margin-right: 30px;
+    font-family: Karla;
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+input, select{
+    margin-bottom: 20px;
+    font-family: Karla;
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+input[type="submit"]
+{
+    font-size: 1.2rem;
+    border: none;
+    padding: 15px;
+    background-color: #F4CE14;
+    border-radius: 16px;
+}
+input[type="submit"]:hover
+{
+    background-color: #e6c2119a;
+}
+.message{
+    font-family: Karla;
+    font-weight: bold;
+    font-size: 1.15rem;
+    color: red;
+    margin-left: 60px;
+}
+.confo-message{
+    font-family: Karla;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: green;
+    margin-left: 60px;
+    margin-bottom: 160px;
+}
+@font-face {
+    font-family: Markazi;
+    src: url(assets/MarkaziText-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Karla;
+    src: url(assets/Karla-VariableFont_wght.ttf);
+}

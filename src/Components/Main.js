@@ -11,6 +11,7 @@ import user4 from './assets/user4.jpeg'
 import Bros1 from './assets/Mario_and_Adrian_A.jpg'
 import Bros2 from './assets/Mario_and_Adrian_B.jpg'
 import "./Main.css"
+import {Link} from "react-router-dom";
 
 const Main = () => {
   return (
@@ -22,7 +23,7 @@ const Main = () => {
            <h3 className='subtitle'>Chicago</h3>
            <p>We are family owned Mediterranean restaurant, </p>
            <p>focused on traditional recipes with a modern twist.</p>
-           <button className='reserve-button'>Reserve A Table</button>
+           <Link to="/reservations"><button className='reserve-button'>Reserve A Table</button></Link>
         </div>
         <img src={photo} alt="dish-photo" className='dish-photo'></img>
       </section>
