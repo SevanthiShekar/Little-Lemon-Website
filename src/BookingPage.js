@@ -4,20 +4,21 @@ import Navigation from './Components/Navigation.js'
 import BookingForm from './BookingForm.js'
 import Footer from './Components/Footer.js'
 
-function BookingPage() {
+function BookingPage(props) {
   const style = {
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
     padding: "0px 30px",
   }
+
   return (
     <>
       <div style={style}>
          <Header/>
          <Navigation/>
       </div>
-      <BookingForm/>
+      <BookingForm times={props.times} dispatch={props.dispatch} submitForm={props.submitForm}/>
       <Footer/>
     </>
   )
